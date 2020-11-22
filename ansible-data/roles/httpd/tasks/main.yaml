@@ -1,0 +1,20 @@
+- name: ensure httpd is at the latest version
+  dnf:
+    name: httpd
+    state: latest
+
+- name: start httpd
+  service:
+    name: httpd
+    state: started
+
+- name: open port 80 for http access
+  firewalld:
+    service: http
+    permanent: true
+    state: enabled
+
+- name: restart the firewalld service to load in the firewall changes
+  service:
+    name: firewalld
+    state: restarted
