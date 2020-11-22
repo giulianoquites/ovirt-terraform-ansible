@@ -1,4 +1,4 @@
-# oVit - Terraform - Ansible
+# oVirt - Terraform - Ansible
 
 This is an example of integration between oVirt, Ansible and Terraform. 
 
