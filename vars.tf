@@ -8,7 +8,7 @@ variable "ovirt_username" {
 }
 variable "ovirt_password" {
     description = "oVirt Admin password"
-    default     = "Solin*#2"
+    default     = "awesomepass"
 }
 
 variable "ansible_user" {
