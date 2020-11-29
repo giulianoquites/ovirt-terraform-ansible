@@ -8,7 +8,7 @@ variable "ovirt_username" {
 }
 variable "ovirt_password" {
     description = "oVirt Admin password"
-    default     = "mypassword"
+    default     = "Solin*#2"
 }
 
 variable "ansible_user" {
@@ -51,7 +51,7 @@ variable "vm_cpu_threads" {
 ##https://github.com/msmagnanijr.keys
 variable "vm_authorized_ssh_key" {
   description = "The ssh key for the VM"
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAudyF45I9TUFvFcsbThGrveydZu/ceZdSFlmfPXNwkqlpJ2Hvk8SadFGRvOE2Wn10BbK0jUpawTS0xcvr2jUnuKXkLt9rLu/JCI/IKZbiIfn+fx8UeWRNrfwDmoDzcTWmsr16X0+feSU4fNS4zCcWwk2x1nDtbLQ8ry6Qhc2UsAOs2dVCz21JtewOaMf4ZqFxmLjIXrQUCWtNvRFZfrk6b3aZQuR0FFtfoy/Ts13PA6dPNGoL10HFuYQM+uKKA7RpKPJDuGShGXhbr7xXs4mzEkZHFh+8LlePtiDVweENLboRXUzz5td0L2XpUNBHZCc/4PsM5wrDivJErTFXD2Rf8nksS0+dJk/5ColS1ie7bQZJyg+kmUn0Ab/q824Ak1VyKTI0xr1B4iTORSa8ajnyEYXY/sO+ecQWAQVXmodWQu/LZ5k0vMfYmh4A8FNFVT86eGAvTIA3igUsfcaaH9J6gD+gufR5hxcOM83kyhSuE/wUJcFNc3rLj2HBPwEYfsU="
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPD3DSuiXFuOz5HZqtgYbEdQcFYEtF0dOg2hiDwzKzBmB4vJhcqjbUCQrBSs0TCR1ZCKd5GlIw+Ju30tf9r+kakJeCU7DRIJTAWyT8Ne2IWaSPpSmp3pwwFvYGidUMxyOGHrD49aNbmBNQhWmGeOmSeFAcLvl345/KSsnbxE4M74FNfx2i8XYryb2dJ5j1ojW36YXu2ZJYdRKoGca82byiKRH4hh79Utc0ilO2FwWdmi0nBTvn+fU/UsT/xNvXCO23E7xkLc7ezdeXvRKiajLYy8AeHbIMQW8gkbLc3fa3Uexocf3w0jejzAm9eDF9QqCOb6Q9G3RLn5m4voJuu+gGWtw5QsMpyk99CLr6kXWjDbcUn/YA2oUfOXLZ4mXFWsdKoFC/kzZtFk9CWtjiRk8JVCGellBgewS6zDJ4itPZeSO3YTzJLetr97hNIvTxqQkVqQfnjbOqrs6bRxyU52B2OHADNQROPqAETjUamIyovtbn3uo5x0pU4URSzee34jc= mmagnani@localhost.localdomain"
 }
 variable "vm_hostname" {
   description = "The hostname for the VM"
