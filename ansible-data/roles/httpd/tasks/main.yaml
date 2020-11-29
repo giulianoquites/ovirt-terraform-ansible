@@ -18,3 +18,8 @@
   service:
     name: firewalld
     state: restarted
+
+- name: publish the index page
+  get_url:
+    url: https://raw.githubusercontent.com/msmagnanijr/ovirt-terraform-ansible/main/index.html
+    dest: /var/www/html
